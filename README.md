@@ -6,7 +6,7 @@ Duration : AUG 01 to Sep 01
 
 Simple Blog Website
 
-This is a full-stack Simple Blog website showcasing my blogs and adding blogs. Built using [your choice of front-end framework/library] for the front-end, [your choice of back-end framework] for the back-end, and a [your choice of database] for storing data. The website includes sections for my bio, portfolio projects, skills, resume, and a contact form to reach out to me.
+This is a full-stack Simple Blog website showcasing my blogs and adding blogs. Built using [your choice of front-end framework/library] for the front-end, [your choice of back-end framework] for the back-end, and a [your choice of database] for storing data. The website includes sections for my blogd, Add New Blog, Aboutand Contact for out to me.
 
 Technologies Used:
 
