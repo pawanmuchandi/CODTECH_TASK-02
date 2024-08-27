@@ -1,0 +1,36 @@
+{
+  "Post": [
+    {
+      "id": 1,
+      "title": "welcome to my Blogging",
+      "body": " In this blog post, I share my experiences and challenges while learning JavaScript. From understanding basic syntax to mastering asynchronous programming.",
+      "likes": 20
+    },
+    {
+      "id": 3,
+      "title": "js blog",
+      "body": " this journey has been filled with learning, unlearning, and relearning. Whether you’re just starting or looking to deepen your knowledge, I hope my insights will help you navigate the complexities of this powerful language.",
+      "likes": 30
+    },
+    {
+      "title": "web",
+      "body": "Web development is rapidly evolving, and this post dives into the latest trends and technologies that are shaping its future.",
+      "likes": 0,
+      "id": 5
+    }
+  ],
+  "Polls": [
+    {
+      "id": 1,
+      "title": "welcome to my Polls Blog",
+      "body": "From the rise of WebAssembly to the growing importance of accessibility, I explore how developers can stay ahead of the curve and build websites that are not only functional but also inclusive and forward-thinking.",
+      "likes": 45
+    },
+    {
+      "id": 2,
+      "title": "About polls",
+      "body": "Web development is rapidly evolving, and this post dives into the latest trends and technologies that are shaping its future.",
+      "likes": 39
+    }
+  ]
+}

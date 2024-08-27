@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: rgba(128, 128, 128, 0.301);
+}
+.navbar {
+    display: flex;
+    margin: 5px 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+h2{
+    margin: 10px 20px;
+    color: purple;
+}
+ul {
+    /* position: relative; */
+    display: flex;
+}
+.elem{
+    right: 40px;
+    position: relative;
+
+}
+.a{
+    margin: 5px 10px;
+    background: #f2f2f2;
+    /* color: rgba(231, 54, 54, 0.548); */
+    color: crimson;
+    border-radius: 10px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+ul li{
+    position: relative;
+    list-style: none;
+}
+.input{
+    display: inline;
+    margin-left: 1300px;
+    right: 20px;
+}
+.a:hover{
+    color: #f2f2f2;
+    background:rgba(231, 54, 54, 0.548) ;
+}
+.container1{
+    width: 960px;
+    margin: 20px auto;
+    border: 2px solid #f1356d;
+    
+}
+.container2{
+        display: flex;
+        justify-content: space-around;
+
+    }
+form{
+    display: flex;
+    flex-direction: column;
+}
+#blog{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    /* border:2px solid red; */
+    margin: 10px 10px;
+    padding: 20px 20px;
+    flex-wrap: wrap;
+}
+.blog-item{
+    display: flex;
+    background: #f2f2f2;
+    height: auto;
+    flex-direction: column;
+    width: 200px;
+    border:2px outset rgba(231, 54, 54, 0.578);;
+    margin: 10px 10px;
+    color: rgba(231, 54, 54, 0.578);
+    border-radius: 7px;
+}
+.head,.body,.likes{
+    border-bottom: 2px #f2f2f2 outset;
+    padding: 10px;
+    margin: 0px 5px;
+}
+
+/* details section */
+#subcontent{
+    width: 960px;
+    margin: 20px auto;
+    padding: 20px 20px;
+    border: 2px solid red;
+    
+}
+/* *********************footer****************************/
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    color: #fff;
+    background: crimson;
+    font-family:'Times New Roman', Times, serif
+
+}
+.footItem{
+margin: 20px auto;
+width: 40%;
+align-items: center;
+justify-content: center;
+text-align: center;
+}
+.footItem img {
+    width: 50px;
+    border-radius: 30px;
+}

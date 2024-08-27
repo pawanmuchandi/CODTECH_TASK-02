@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogging website</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <h2>Blogging</h2>
+            <div class="elem">
+                <ul>
+                    <li><a href="" class="a"><i class="fas fa-home"></i> </a></li>
+                    <li><a href="details.js" class="a"><i class="fas fa-address-card"></i> s</a></li>
+                    <!-- <li><a href="" class="a"><i class="fas fa-cogs"></i> Services</a></li> -->
+                    <li><a href="" class="a"><i class="fas fa-tty"></i></a></li>
+                    <li><a href="create.html" class="a">Add a new Blog</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="">
+            <form action="#">
+                <input type="text" name="term" class="input a" placeholder="Search your text">
+            </form>
+
+            <div id="blog" style="padding: 10px;">
+                <!-- Blog 1 -->
+                <div style="border: 1px solid #ddd; padding: 10px; margin-bottom: 15px; display: flex; flex-direction: column; width: 100%; max-width: 500px;" onclick="viewBlogDetails(1)">
+                    <h3 style="margin: 5px 0;">The Journey of Learning JavaScript</h3>
+                    <img src="images/js.png" alt="Blog Image" style="width: 100%; height: auto; margin-bottom: 10px;">
+                    <p style="color: #555; margin: 5px 0;">In this blog post, I share my experiences and challenges while learning JavaScript. From understanding basic syntax to mastering asynchronous programming, this journey has been filled with learning, unlearning, and relearning. Whether you’re just starting or looking to deepen your knowledge, I hope my insights will help you navigate the complexities of this powerful language.</p>
+                </div>
+
+                <!-- Blog 2 -->
+                <div style="border: 1px solid #ddd; padding: 10px; display: flex; flex-direction: column; width: 100%; max-width: 500px;" onclick="viewBlogDetails(2)">
+                    <h3 style="margin: 5px 0;">Exploring the Future of Web Development</h3>
+                    <img src="images/web.jpeg" alt="Blog Image" style="width: 100%; height: auto; margin-bottom: 10px;">
+                    <p style="color: #555; margin: 5px 0;">Web development is rapidly evolving, and this post dives into the latest trends and technologies that are shaping its future. From the rise of WebAssembly to the growing importance of accessibility, I explore how developers can stay ahead of the curve and build websites that are not only functional but also inclusive and forward-thinking.
+
+
+
+
+
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footItem">
+           
+        </div>
+    </footer>
+
+    <script>
+        function viewBlogDetails(blogId) {
+            // Redirect to a detailed blog page or log the blog ID
+            alert('View details for Blog ' + blogId);
+            // You can use window.location.href to redirect to another page
+            // window.location.href = 'blog-details.html?id=' + blogId;
+        }
+    </script>
+</body>
+
+</html>
