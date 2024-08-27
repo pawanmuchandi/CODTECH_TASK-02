@@ -17,3 +17,8 @@ Back-end: [e.g., Node.js, Express, Django]
 Database: [e.g., MongoDB, MySQL, PostgreSQL]
 
 Additional tools: [e.g., Bootstrap, RESTful API, GraphQL]
+![Screenshot 2024-08-27 223509](https://github.com/user-attachments/assets/0cd987d4-9ebb-485d-863b-38412b9ef5dd)
+![Screenshot 2024-08-27 223530](https://github.com/user-attachments/assets/83b2726f-6436-419b-836f-4c7bb60c3b93)
+
+
+
